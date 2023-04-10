@@ -36,7 +36,7 @@ Users should be able to:
 Coming Soon 
 
 ## My process
-I started with the mobile view imported pure.css and the fonts made the colour root etc., from there I went to the desktop. Then when I went to finish the project and make the readme I realized there was a validation part. For this part there was quite a bit of trial and error, I tried to insert the error messages for each of the inserts under the textbox, then I made a placeholder with an h6, that caused too much spacing and looked weird, and so then I decided to actually just change the placeholder text and the border colour which I think is a much nicer design. 
+I started with the mobile view imported pure.css and the fonts made the colour root etc., from there I went to the desktop. Then when I went to finish the project and make the readme I realized there was a validation part. For this part there was quite a bit of trial and error, I tried to insert the error messages for each of the inserts under the textbox, then I made a placeholder with an h6, that caused too much spacing and looked weird, and so then I decided to actually just change the placeholder text and the border colour which I think is a much nicer design. The validation includes, verifying all the boxes have a value, each one has a value, and if the email value is an actual email string, there could be other validation checks but the full form must be filled out no matter which way it is to be submitted. 
 
 ### Built with
 

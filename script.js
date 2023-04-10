@@ -43,14 +43,23 @@ let validateInput = () => {
         setBorder(email);
         email.setAttribute('placeholder', 'Looks like this is not an email');
         return;
+    } else if(email.value){
+        let fullEmail = email.value;
+        var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(!fullEmail.match(mailFormat)){
+            email.value = '';
+            setBorder(email);
+            email.setAttribute('placeholder', 'email@example.com');
+            return;
+        } 
     } else {
         return;
     }
 }
+// On submit it starts the validation check
+submitBtn.addEventListener('click', validateInput);
 
 // Function to get the border:
 const setBorder = (input) => {
     input.setAttribute('class', 'notValid');
 }
-// On submit it starts the validation check
-submitBtn.addEventListener('click', validateInput);
