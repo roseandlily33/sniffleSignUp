@@ -6,8 +6,6 @@ let submitBtn = document.getElementById('bottomBtn');
 
 console.log('Hello');
 
-
-
 let validateInput = () => {
     if(!firstName.value && !lastName.value && !password.value && !email.value){
         setBorder(firstName);
