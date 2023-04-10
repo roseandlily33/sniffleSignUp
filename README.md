@@ -30,6 +30,8 @@ Users should be able to:
 
 <img width="372" alt="Screenshot 2023-04-10 at 4 12 31 PM" src="https://user-images.githubusercontent.com/109821108/230978724-a552c4e2-55b3-4d6a-a5a0-91c02ff20119.png">
 <img width="368" alt="Screenshot 2023-04-10 at 4 12 34 PM" src="https://user-images.githubusercontent.com/109821108/230978743-988d5168-8b52-49d9-9b35-4dd7c03fae45.png">
+<img width="380" alt="Screenshot 2023-04-10 at 6 39 59 PM" src="https://user-images.githubusercontent.com/109821108/231005007-b841ef7b-1ee1-46b1-b853-e43784b7feb0.png">
+<img width="355" alt="Screenshot 2023-04-10 at 6 39 41 PM" src="https://user-images.githubusercontent.com/109821108/231005010-afcd00a9-fe2e-4a29-b275-0cf0fa130e46.png">
 
 
 ### Links
