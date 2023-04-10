@@ -22,10 +22,14 @@
   <button id="topBtn"><strong>Try it free 7 days </strong> then
     <br> $20/mo. thereafter</button>
   <div id="form">
-    <input placeholder="First Name">
-    <input placeholder="Last Name">
-    <input placeholder="Email Address">
-    <input placeholder="Password">
+    <input placeholder="First Name" id="firstName">
+    <h6 id="invalidName"></h6>
+    <input placeholder="Last Name" id="lastName">
+    <h6 id="invalidLast"></h6>
+    <input placeholder="Email Address" id="emailInput">
+    <h6 id="invalidEmail"></h6>
+    <input placeholder="Password" id="passwordInput">
+    <h6 id="invalidPassword"></h6>
     <button id="bottomBtn">CLAIM YOUR FREE TRIAL </button>
     <p id="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
   </div>
@@ -33,6 +37,7 @@
 
 </section>
 </div>
+<script src="script.js"></script>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

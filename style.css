@@ -61,12 +61,17 @@ p{
     color: white;
     box-shadow: 1px 2px 4px 2px var(--GrayishBlue);
 }
+#bottomBtn:hover{
+    background-color: var(--Blue);
+    opacity: 0.5;
+}
 input{
-    margin: 1.2em;
-    width: 80%;
     padding: 1em;
+    width: 80%;
     border: 1px solid var(--GrayishBlue);
     border-radius: 5px;
+    margin-block: 0.8em;
+    margin-inline: 1em;
     font-weight: bold;
 
 }
@@ -90,6 +95,17 @@ footer{
     margin: 1em;
     font-size: 0.5em;
 }
+/* Validators */
+.notValid{
+    border: 1px solid var(--Red);
+    color: var(--Red);
+}
+#invalidName, #invalidEmail, #invalidPassword, #invalidLast{
+    color: var(--Red);
+    font-size: 0.5em;
+    padding: 0;
+}
+
 @media screen and (min-width: 1000px){
 #bigScreen{
     display: inline-flex;
