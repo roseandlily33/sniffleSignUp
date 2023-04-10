@@ -97,14 +97,10 @@ footer{
 }
 /* Validators */
 .notValid{
-    border: 1px solid var(--Red);
+    border: 3px solid var(--Red);
     color: var(--Red);
 }
-#invalidName, #invalidEmail, #invalidPassword, #invalidLast{
-    color: var(--Red);
-    font-size: 0.5em;
-    padding: 0;
-}
+
 
 @media screen and (min-width: 1000px){
 #bigScreen{

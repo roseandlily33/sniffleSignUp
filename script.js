@@ -14,24 +14,26 @@ let validateInput = () => {
     if(!firstName.value){
         console.log('No first name');
         setBorder(firstName);
-        invalidName.innerHTML = 'First Name cannot be empty';
+        firstName.setAttribute('placeholder','First Name cannot be empty');
         
 
     } else if (!lastName.value){
         console.log('No last name');
         setBorder(lastName);
-        invalidEmail.innerHTML = 'Last Name cannot be empty';
+        lastName.setAttribute('placeholder', 'Last Name cannot be empty');
         
 
     } else if (!password.value){
         console.log('No password');
         setBorder(password);
-        invalidPassword.innerHTML = 'Password cannot be empty';
+        password.setAttribute('placeholder', 'Password cannot be empty');
       
     } else if (!email.value){
         console.log('No email');
         setBorder(email);
-        invalidEmail.innerHTML = 'Looks like this is not an email';
+        email.setAttribute('placeholder', 'Looks like this is not an email');
+    } else {
+        return;
     }
 }
 
